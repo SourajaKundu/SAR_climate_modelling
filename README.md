@@ -121,9 +121,10 @@ The main notebook contains:
 * t-SNE projection of embeddings distinguishes SAR and RGB modalities.
 * Time series plots of snow cover across various months and regions.
 
-<p align="center">
-  <img src="clip_activations_comparison.png" alt="CLIP Activation Map" width="500"/>
-</p>
+![CLIP Activation Map](clip_activations_comparison.png)
+![DinoV2 Activation Map](dinov2_activations_comparison.png)
+![DeepLabV3 Activation Map](deeplabv3_activations_comparison.png)
+
 
 ---
 
