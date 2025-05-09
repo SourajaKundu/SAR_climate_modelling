@@ -122,7 +122,7 @@ The main notebook contains:
 * Time series plots of snow cover across various months and regions.
 
 <p align="center">
-  <img src="plots/clip_activations_comparison.png" alt="CLIP Activation Map" width="500"/>
+  <img src="clip_activations_comparison.png" alt="CLIP Activation Map" width="500"/>
 </p>
 
 ---
