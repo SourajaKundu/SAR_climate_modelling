@@ -58,6 +58,34 @@ To perform snow cover segmentation on SAR satellite images and analyze its corre
 
 ---
 
+### **Relation with Content Taught in Class**
+
+1. The concept that dataset collection is not dataset curation that Sir told us in class is proven true. After curation, the dataset size was reduced to only one-third.
+
+2. Feature map/ activation map visualisation after each layer of any kind of CNN network. I experimented with pre-trained models like CLIP, Dinov2, and DeepLabV3.
+
+3. Linear regression was extensively taught in class. I reduced the multimodal problem to multiple linear regression problems for climate modelling. I could predict important and interesting insights based on the regression results.
+
+4. Dimensionality reduction using PCA was another topic extensively taught in class. Here, I tried to reduce the dimensionality of CLIP embeddings in a 2D plot using PCA and derived an interesting conclusion about the domain mismatch between SAR and RGB images.
+
+5. One thing I learned from Sir is to be extremely curious and explore things in depth. This project overall is a showcase of that learning and effort.
+
+----
+
+### **Relation with Content Taught in Class**
+
+1. The concept that dataset collection is not dataset curation that Sir told us in class is proven true. After curation, the dataset size was reduced to only one-third.
+
+2. Feature map/ activation map visualisation after each layer of any kind of CNN network. I experimented with pre-trained models like CLIP, Dinov2, and DeepLabV3.
+
+3. Linear regression was extensively taught in class. I reduced the multimodal problem to multiple linear regression problems for climate modelling. I could predict important and interesting insights based on the regression results.
+
+4. Dimensionality reduction using PCA was another topic extensively taught in class. Here, I tried to reduce the dimensionality of CLIP embeddings in a 2D plot using PCA and derived an interesting conclusion about the domain mismatch between SAR and RGB images.
+
+5. One thing I learned from Sir is to be extremely curious and explore things in depth. This project overall is a showcase of that learning and effort.
+
+----
+
 ## 📓 Getting Started
 
 ### 🔧 Requirements:
