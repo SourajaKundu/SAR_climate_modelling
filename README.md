@@ -72,17 +72,15 @@ To perform snow cover segmentation on SAR satellite images and analyze its corre
 
 ----
 
-### **Relation with Content Taught in Class**
+### **Some Interesting Conclusions**
 
-1. The concept that dataset collection is not dataset curation that Sir told us in class is proven true. After curation, the dataset size was reduced to only one-third.
+1. As temperature (both min and max) decreases, snow cover increases.
+2. As precipitation and snowfall amount increase, snow cover increases.
+3. As humidity decreases, snow cover increases.
+4. Just 10 years of data are too few to predict climate change. The fact is that the maximum temperature has risen only slightly over the years. But it has indeed increased with time. And from the last plot, we saw that with temp, snow cover changes significantly. One more observation is that in winter and fall, the snow cover has indeed decreased over the years, though very slightly.
 
-2. Feature map/ activation map visualisation after each layer of any kind of CNN network. I experimented with pre-trained models like CLIP, Dinov2, and DeepLabV3.
 
-3. Linear regression was extensively taught in class. I reduced the multimodal problem to multiple linear regression problems for climate modelling. I could predict important and interesting insights based on the regression results.
-
-4. Dimensionality reduction using PCA was another topic extensively taught in class. Here, I tried to reduce the dimensionality of CLIP embeddings in a 2D plot using PCA and derived an interesting conclusion about the domain mismatch between SAR and RGB images.
-
-5. One thing I learned from Sir is to be extremely curious and explore things in depth. This project overall is a showcase of that learning and effort.
+5. The CLIP embeddings of SAR and RGB in the reduced dimensional feature space are just a translated (shifted version) of each other. So, I could identify the nature of the domain mismatch clearly. RGB images capture visible light with fine-grained textures and colours, while SAR captures backscattered microwave signals, sensitive to surface roughness, structure, and dielectric properties. My subsequent research can be to compensate for this domain mismatch by projecting into this shared embedding space. And after that, we can use the snow mask derived from the aligned/registered RGB image as the ground truth to segment the SAR image. 
 
 ----
 
