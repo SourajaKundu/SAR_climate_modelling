@@ -47,13 +47,14 @@ To perform snow cover segmentation on SAR satellite images and analyze its corre
 
 ---
 
-## 🧠 Learnings
 
-1. **SAR Image Preprocessing**: Efficient binarization and adaptive edge detection methods were essential for feature extraction and segmentation quality.
-2. **CLIP-style Embeddings**: A contrastive model effectively learned a separable latent space for RGB vs SAR images, as visualized with t-SNE.
-3. **Temporal Snow Trends**: Correlating snow cover area with daily meteorological data gave insight into snow behavior across seasons.
-4. **Model Interpretability**: Visualizing activation maps from models like DeepLabV3 and DINOv2 provided insight into what features are emphasized during inference.
-5. **Pipeline Integration**: Full integration of preprocessing, segmentation, climate data pairing, and visualization into one reproducible pipeline.
+## 🧠 **My Learning From This Work**
+
+1. This project has been a good chance for me to explore the recent advances in multimodal learning (VLM, LLM, LMM) as much as I want. I could thoroughly read some good papers and online blogs (mentioned in the reference section at the end), as I could spend all of my waking hours for four days after the end of the semester just for this project. This project has personal relevance for me as I start my **Machine Learning Ph.D. at CMU this Fall 2025, focusing on multimodal learning and Computer Vision**. This was also a chance to *code* to use multimodal pre-trained models, analyse their architecture, use the Hugging Face library, and learn from failure. I especially enjoyed reading articles from [https://distill.pub/](https://distill.pub/) as I was very fascinated by some new concepts like [multimodal neuron](https://distill.pub/2021/multimodal-neurons/) and [differentiable image parameterisations](https://distill.pub/2018/differentiable-parameterizations/).
+
+2. This was the first time I single-handedly collected, curated and pre-processed a significantly huge dataset from different resources. Searching for the appropriate resource was indeed time-consuming and was finalised after multiple failed experiments with different resources. Finally, I plan to open-source this curated dataset when I submit my journal to IEEE TGRS.
+
+3. This is also my first project on Satellite imaging, so I had to learn multiple new terminologies and domain-specific concepts. For easy reference, I have presented them very precisely in the beginning.
 
 ---
 
